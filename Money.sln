@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money", "src\Money\Money.csproj", "{CCED2DC9-B1BC-4A66-A7C3-488CF1DE3616}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neptuo", "src\Neptuo\Neptuo.csproj", "{C637B589-5769-4661-9B6D-A34571A5AE08}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.Models", "src\Money.Models\Money.Models.csproj", "{CA416337-12D3-4406-85C8-2717FAB7A7D2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money.UI.Universal", "src\Money.UI.Universal\Money.UI.Universal.csproj", "{6D351EA3-9664-48F9-8937-EA14924755FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.Models.EntityFrameworkCore", "src\Money.Models.EntityFrameworkCore\Money.Models.EntityFrameworkCore.csproj", "{1AD9F4C2-F7E0-4179-8938-D39A2D291BDF}"
 EndProject
@@ -45,13 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.EventSourcing.EntityF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Accounts", "Accounts", "{0C30B161-05C8-4999-AE4A-93485FAC6110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money.Accounts.EntityFrameworkCore", "src\Money.Accounts.EntityFrameworkCore\Money.Accounts.EntityFrameworkCore.csproj", "{81A243CB-E24C-4364-872E-CBB916ECCB96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.Accounts.EntityFrameworkCore", "src\Money.Accounts.EntityFrameworkCore\Money.Accounts.EntityFrameworkCore.csproj", "{81A243CB-E24C-4364-872E-CBB916ECCB96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money.Accounts", "src\Money.Accounts\Money.Accounts.csproj", "{ABB8BFA5-4A8D-4B2D-B7AB-2C30D546EDFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.Accounts", "src\Money.Accounts\Money.Accounts.csproj", "{ABB8BFA5-4A8D-4B2D-B7AB-2C30D546EDFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money.Accounts.Models", "src\Money.Accounts.Models\Money.Accounts.Models.csproj", "{72D0389B-704D-4E76-9692-962256246E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.Accounts.Models", "src\Money.Accounts.Models\Money.Accounts.Models.csproj", "{72D0389B-704D-4E76-9692-962256246E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money.Accounts.Models.Builders", "src\Money.Accounts.Models.Builders\Money.Accounts.Models.Builders.csproj", "{6738A2D0-7B18-4CF2-B18E-8C68645B85E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money.Accounts.Models.Builders", "src\Money.Accounts.Models.Builders\Money.Accounts.Models.Builders.csproj", "{6738A2D0-7B18-4CF2-B18E-8C68645B85E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,30 +111,6 @@ Global
 		{CA416337-12D3-4406-85C8-2717FAB7A7D2}.Release|x64.Build.0 = Release|Any CPU
 		{CA416337-12D3-4406-85C8-2717FAB7A7D2}.Release|x86.ActiveCfg = Release|Any CPU
 		{CA416337-12D3-4406-85C8-2717FAB7A7D2}.Release|x86.Build.0 = Release|Any CPU
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|Any CPU.Build.0 = Debug|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|Any CPU.Deploy.0 = Debug|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|ARM.ActiveCfg = Debug|ARM
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|ARM.Build.0 = Debug|ARM
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|ARM.Deploy.0 = Debug|ARM
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|x64.ActiveCfg = Debug|x64
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|x64.Build.0 = Debug|x64
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|x64.Deploy.0 = Debug|x64
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|x86.ActiveCfg = Debug|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|x86.Build.0 = Debug|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Debug|x86.Deploy.0 = Debug|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|Any CPU.ActiveCfg = Release|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|Any CPU.Build.0 = Release|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|Any CPU.Deploy.0 = Release|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|ARM.ActiveCfg = Release|ARM
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|ARM.Build.0 = Release|ARM
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|ARM.Deploy.0 = Release|ARM
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|x64.ActiveCfg = Release|x64
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|x64.Build.0 = Release|x64
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|x64.Deploy.0 = Release|x64
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|x86.ActiveCfg = Release|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|x86.Build.0 = Release|x86
-		{6D351EA3-9664-48F9-8937-EA14924755FE}.Release|x86.Deploy.0 = Release|x86
 		{1AD9F4C2-F7E0-4179-8938-D39A2D291BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1AD9F4C2-F7E0-4179-8938-D39A2D291BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD9F4C2-F7E0-4179-8938-D39A2D291BDF}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -385,7 +359,6 @@ Global
 		{CCED2DC9-B1BC-4A66-A7C3-488CF1DE3616} = {0ABE93F4-6D79-475C-9E76-3136A7D17D26}
 		{C637B589-5769-4661-9B6D-A34571A5AE08} = {1D3C6094-2E8A-4A8F-9F1E-5A6450318F27}
 		{CA416337-12D3-4406-85C8-2717FAB7A7D2} = {5F8D41B8-9780-4960-9071-3462BA179E23}
-		{6D351EA3-9664-48F9-8937-EA14924755FE} = {B38271C0-D03D-4DA3-97A5-7F2183CE7D15}
 		{1AD9F4C2-F7E0-4179-8938-D39A2D291BDF} = {5F8D41B8-9780-4960-9071-3462BA179E23}
 		{DEBB89D5-7BA3-465C-B6D0-927FD61C0DFB} = {5F8D41B8-9780-4960-9071-3462BA179E23}
 		{F13BAE0F-446F-4E54-8DFD-63776E94D33D} = {B38271C0-D03D-4DA3-97A5-7F2183CE7D15}

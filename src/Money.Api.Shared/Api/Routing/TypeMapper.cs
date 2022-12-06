@@ -24,12 +24,15 @@ namespace Money.Api.Routing
 
         public string FindUrlByType(Type type)
         {
+            /*
+            var str = storage.FirstOrDefault(str => str.Type == type);
+            return str?.Url;
+            */
             foreach (var mapping in storage)
             {
                 if (mapping.Type == type)
                     return mapping.Url;
             }
-
             return null;
         }
 

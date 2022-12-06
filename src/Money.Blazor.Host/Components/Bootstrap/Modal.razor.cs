@@ -64,7 +64,7 @@ namespace Money.Components.Bootstrap
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            locationChangingToken = NavigationManager.RegisterLocationChangingHandler(OnLocationChanging);
+            //locationChangingToken = NavigationManager.RegisterLocationChangingHandler(OnLocationChanging);
         }
 
         public void Dispose()
@@ -72,7 +72,7 @@ namespace Money.Components.Bootstrap
             Hide();
             locationChangingToken.Dispose();
         }
-
+        /*
         private async ValueTask OnLocationChanging(LocationChangingContext context)
         {
             if (await Interop.IsOpenAsync(Container))
@@ -81,6 +81,7 @@ namespace Money.Components.Bootstrap
                 Hide();
             }
         }
+        */
 
         protected override void OnParametersSet()
         {
